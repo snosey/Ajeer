@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "268484215898",
+    "project_id": "ajeer-199517"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:268484215898:android:2fe19e0901bff5a5",
+        "android_client_info": {
+          "package_name": "com.example.snosey.ajeer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "268484215898-dh7irdm26dh0dfsgloq56d6dtqq9p1i2.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "268484215898-n7jr1mcalj87uimclrt7judhu74ihomg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.snosey.ajeer",
+            "certificate_hash": "e5ab8db91fbd260296217bbb80b35ecac92733f3"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5q7NZbp8-7Sls_dhzxrbI2h_gq_Kr8Dc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

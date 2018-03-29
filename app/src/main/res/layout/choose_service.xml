@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/whiteDark"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_VerySmall"
+        android:layout_margin="@dimen/margin_Medium"
+        android:background="@drawable/button_rounded_stroked"
+        android:onClick="back"
+        android:text="الرجوع اللى الخريطه" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/margin_Medium"
+        android:text="الخدمات المتوفره حول منطقتك"
+        android:textColor="@color/black_fat7" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/serviceRv"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>
